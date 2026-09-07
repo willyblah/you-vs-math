@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "ESNext", "lib": ["ES2022", "DOM"],
+    "moduleResolution": "Bundler", "strict": true, "skipLibCheck": true,
+    "noEmit": true, "esModuleInterop": true, "allowImportingTsExtensions": true,
+    "resolveJsonModule": true, "isolatedModules": true
+  },
+  "include": ["src"],
+  "exclude": ["src/**/*.test.ts"]
+}
